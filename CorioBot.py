@@ -5,7 +5,7 @@ import time
 from robobrowser import RoboBrowser
 from bs4 import BeautifulSoup
 
-TOKEN = '349659410:AAGAkzfa2JeQIwD8Xf7uaZSbwKcv4QX_rvs'
+TOKEN = 'XXX'
 bot = telebot.TeleBot(TOKEN) # Creamos el objeto de nuestro bot.
 print (bot.get_me())
 browser = RoboBrowser(history=True)
